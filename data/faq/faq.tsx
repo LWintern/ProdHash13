@@ -1,5 +1,5 @@
 // data/faq/faq.ts
-import { FAQContent } from '../../types/faq';
+import type { FAQContent } from '../../types/faq';
 import { ldapMasterclass } from '../courses/specialisation-in-ldap';
 
 // Shared content template for all specializations except DevOps
@@ -134,7 +134,7 @@ const sharedSpecializationContent = {
     ]
 };
 
-export const faqContent: FAQContent = {
+const faqContentData: FAQContent = {
   "specialisation-in-devops": {
     curriculum: [
       {
@@ -490,6 +490,98 @@ export const faqContent: FAQContent = {
 },
 
 
+"automation-with-selenium": {
+  Program: [
+    {
+      question: "What is the Selenium Training Program?",
+      answer:
+        "The Selenium Training Program is an industry-focused course designed to teach Selenium, the most popular open-source automation tool for web applications. The program covers Selenium WebDriver, TestNG, frameworks, real-time project integration, and more."
+    },
+    {
+      question: "Why should I learn Selenium?",
+      answer:
+        "Selenium is widely used in the software testing industry for automating web-based applications. Learning Selenium helps you become a professional QA automation engineer, boosts your testing skills, and increases your job opportunities in automation testing."
+    }
+  ],
+  selectionCriteria: [
+    {
+      question: "Who can join this Selenium course?",
+      answer:
+        "Anyone interested in software testing, automation, or quality assurance can join. It is ideal for manual testers, QA engineers, developers transitioning to testing, and students with a basic understanding of software systems."
+    },
+    {
+      question: "Is prior programming knowledge required?",
+      answer:
+        "No, prior programming experience is not mandatory. The course starts from the basics and gradually progresses to advanced topics. A willingness to learn and basic computer skills are all you need!"
+    }
+  ],
+  curriculum: [
+    {
+      question: "What topics are covered in this Selenium training?",
+      answer: (
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Selenium WebDriver fundamentals</li>
+          <li>Locators and XPath strategies</li>
+          <li>TestNG framework and assertions</li>
+          <li>Data-driven and keyword-driven testing</li>
+          <li>Page Object Model (POM)</li>
+          <li>Integration with Maven, Jenkins, and Git</li>
+          <li>Automation frameworks and best practices</li>
+        </ul>
+      )
+    },
+    {
+      question: "Will there be practical sessions?",
+      answer:
+        "Yes. The course includes hands-on exercises, live coding, project implementation, and real-time testing scenarios to ensure job-readiness."
+    }
+  ],
+  timeCommitment: [
+    {
+      question: "How long is the Selenium training program?",
+      answer:
+        "The complete program is structured into multiple sessions. Each session runs for 2.5 to 3 hours. The overall duration may vary depending on the learner’s pace and class depth."
+    },
+    {
+      question: "Is the program online or offline?",
+      answer:
+        "The training is conducted in live online mode with interactive classes and direct mentorship."
+    }
+  ],
+  Duration: [
+    {
+      question: "What is the duration of the Selenium course?",
+      answer: "The course spans approximately 6 weeks, with flexible schedules to accommodate learners."
+    },
+    {
+      question: "Are there any breaks during the course?",
+      answer: "Yes, the course includes short breaks between sessions to ensure effective learning."
+    }
+  ],
+  Certification: [
+    {
+      question: "Will I receive a certificate after the course?",
+      answer:
+        "Yes. You will be awarded an industry-recognized certificate upon successfully completing the training."
+    }
+  ],
+  accessAndFees: [
+    {
+      question: "What is the course fee?",
+      answer:
+        "Fee details will be provided upon registration or inquiry. Early applicants may be eligible for discounts or scholarships."
+    },
+    {
+      question: "Will I get lifetime access to the course content?",
+      answer:
+        "Yes. Post-enrollment, you will receive lifetime access to session recordings, test scripts, and all shared resources."
+    }
+  ]
+},
+
+
+
+
   "specialisation-in-docker": {
     ...sharedSpecializationContent
   },
@@ -550,4 +642,6 @@ export const faqContent: FAQContent = {
  "aws-devops-pro":{
   ...sharedSpecializationContent
  }
+
+ 
 };

@@ -885,6 +885,85 @@ export const analystData: CourseAnalystData = {
  
    
 },
+"automation-with-selenium ": {
+  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
+  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
+  salary: {
+    "label": "India Salary Range (Annual INR)",
+    "values": [650000, 1100000, 1650000, 2500000]  // Entry → Junior → Mid-Level → Senior
+  },
+  companies: [
+    "Google",
+    "TCS",
+    "Flipkart",
+    "Amazon",
+    "Infosys",
+    "Zomato",
+    "Microsoft",
+    "Wipro",
+    "Razorpay",
+    "Meta (Facebook)",
+    "Accenture",
+    "Cognizant",
+    "Postman",
+    "IBM",
+    "Tech Mahindra",
+    "Paytm",
+    "Deloitte",
+    "Ola Electric",
+    "Oracle",
+    "HCL Technologies",
+    "Meesho"
+  ],
+  demand: 78,
+  jobCount: "10,826+",
+  description: "Selenium professionals in India are experiencing higher salaries due to rising demand for test automation in DevOps, CI/CD, and agile development pipelines. In 2024, entry-level roles start around ₹4.1 LPA, with experienced engineers earning ₹15 LPA and above. Strong Python and framework knowledge (e.g., PyTest, Jenkins) significantly boosts earning potential.",
+  yearLabel: "In 2025",
+  salaryLabel: "Average Annual Salaries (INR)",
+  companiesLabel: "Top Companies Hiring Linux System Administrators",
+  jobsLabel: "Global Job Openings",
+  jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles",
+
+  
+
+ 
+},
+
+"mojo": {
+  title: "Linux System Administrators – 2025 Job Outlook & Salaries",
+  subtitle: "Linux Administration & DevOps Expert Demand in Global Tech Industry",
+  salary: {
+    "label": "India Salary Range (Annual INR)",
+    "values": [650000, 1100000, 1650000, 2250000] // Entry → Junior → Mid-Level → Senior
+  },
+  companies: [
+    "Google",
+    "Amazon",
+    "Meta",
+    "Apple",
+    "Microsoft",
+    "NVIDIA",
+    "Intel",
+    "AMD",
+    "IBM Research",
+    "Accenture AI",
+    "Deloitte AI & Analytics",
+    "TCS Research & Innovation"
+  ],
+  demand: 85, // Assumed based on AI/test automation research growth
+  jobCount: "100+",
+  description: "Selenium professionals in India are experiencing higher salaries due to rising demand for test automation in DevOps, CI/CD, and agile development pipelines. In 2024, entry-level roles start around ₹4.1 LPA, with experienced engineers earning ₹15 LPA and above. Strong Python and framework knowledge (e.g., PyTest, Jenkins) significantly boosts earning potential.",
+  yearLabel: "In 2025",
+  salaryLabel: "Average Annual Salaries (INR)",
+  companiesLabel: "Top Companies Hiring Linux System Administrators",
+  jobsLabel: "Global Job Openings",
+  jobsDescription: "Active job listings on LinkedIn, Naukri, Indeed, and company career portals for Linux System Administrator and related DevOps roles",
+
+  
+
+ 
+},
+
 
 
  

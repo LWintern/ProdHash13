@@ -14,5 +14,9 @@ export interface FAQContent {
     Duration: FAQItem[];
     Certification: FAQItem[];
     selectionCriteria: FAQItem[];
+    accessAndFees?: FAQItem[]; 
+
+
+    
   };
 }
