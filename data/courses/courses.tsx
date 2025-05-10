@@ -31,7 +31,7 @@ import {awsEksMastery} from "./awsEks";
 import {awsDevOpsMastery} from "./awsDevops";
 import {specialisationInCKAD} from "./ckadnew";
 import { AutomationWithSelenium } from "./automation-with-selenium";
-import { mojo} from "./mojo";
+import {  specialisationInmojo} from "./specialisation-in-mojo";
 export const courseInfo: Course[] = [
  
   specialisationInDevops,
@@ -64,7 +64,7 @@ export const courseInfo: Course[] = [
   awsDevOpsMastery,
   specialisationInCKAD,
   AutomationWithSelenium,
-  mojo,
+  specialisationInmojo,
 
   
 
